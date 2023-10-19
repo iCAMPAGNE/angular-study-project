@@ -31,12 +31,12 @@
         margin: 1em;
         text-decoration: none;
         &:hover {
-            background-color: #CCFFCC;
+            background-color: yellow;
+        }
+
+        &.currentPage {
+            font-weight: bold;
+            background-color: #AAFFAA;
         }
     }
-}
-
-.currentPage {
-    font-weight: bold;
-    background-color: #AAFFAA !important;
 }
