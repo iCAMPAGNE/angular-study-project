@@ -22,7 +22,7 @@ yarn-error.log
 angular-project.iml
 
 # Miscellaneous
-.angular/*
+.angular
 .sass-cache/
 /connect.lock
 /coverage

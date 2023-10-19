@@ -1,0 +1,42 @@
+.menu-header {
+    height: 5em;
+}
+
+.menu {
+    height: 5em;
+    margin-top: -1.5em;
+    margin-left: -1em;
+    background-color: indigo;
+    font-size: 14px;
+    > li {
+        display: inline;
+        margin-right: 5px;
+        margin-top: 2em;
+    }
+}
+
+.flex-container {
+    position: fixed;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    a {
+        padding: 0.8em;
+        border-radius: 0.5em;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+        background-color: orange;
+        width: 100px;
+        margin: 1em;
+        text-decoration: none;
+        &:hover {
+            background-color: #CCFFCC;
+        }
+    }
+}
+
+.currentPage {
+    font-weight: bold;
+    background-color: #AAFFAA !important;
+}
