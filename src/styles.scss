@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@use "sass:math";
+
+$available_width: 95vw;
+$available_height: 95vh;
+
+$body_height: min($available_height, $available_width / 1.3);
+$body_width: min($available_height * 1.3, $available_width);
+
+body {
+    width: $body_width;
+    height: $body_height;
+    background-color: black;
+}

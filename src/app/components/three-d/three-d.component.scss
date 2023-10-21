@@ -1,0 +1,17 @@
+
+.circle {
+    position: absolute;
+    top: var(--offsety);
+    left: var(--offsetx);
+    height: var(--radius);
+    width: var(--radius);
+//    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    &.right {
+        border: double #880000 5px;
+    }
+    &.left {
+        border: double #0000FF 5px;
+    }
+}
