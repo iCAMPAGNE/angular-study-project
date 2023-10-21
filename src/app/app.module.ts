@@ -7,6 +7,11 @@ import { HomeComponent } from './components/home/home.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { ThreeDComponent } from './components/three-d/three-d.component';
 import { DynamicStylingComponent } from './components/dynamic-styling/dynamic-styling.component';
+import { AttributeDirective } from './directives/attribute.directive';
+import {FormsModule} from "@angular/forms";
+import { SingleHostElementAttributeDirective } from './directives/single-host-element-attribute.directive';
+import { StructuralDirective } from './directives/structural.directive';
+import { ChildComponent } from './components/child/child.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,16 @@ import { DynamicStylingComponent } from './components/dynamic-styling/dynamic-st
     HomeComponent,
     NavigationComponent,
     ThreeDComponent,
-    DynamicStylingComponent
+    DynamicStylingComponent,
+    AttributeDirective,
+    SingleHostElementAttributeDirective,
+    StructuralDirective,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
