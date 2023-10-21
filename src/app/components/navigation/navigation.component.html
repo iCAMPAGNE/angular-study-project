@@ -1,6 +1,8 @@
-<div class="menu-header">
-    <ul class="menu flex-container">
-        <li><a href="/" [ngClass]="{'currentPage':currentPage == ''}">Home</a></li>
-        <li><a href="/three-d" [ngClass]="{'currentPage':currentPage == 'three-d'}">3-D animations</a></li>
-    </ul>
+<div class="menu-header"></div>
+<div class="menu-bar">
+    <div class="flex-container">
+        <a href="/" ><button [ngClass]="{'currentPage':currentPage == ''}">Home</button></a>
+        <a href="/dynamic-styling"><button [ngClass]="{'currentPage':currentPage == 'dynamic-styling'}">Dynamic styling</button></a>
+        <a href="/three-d"><button [ngClass]="{'currentPage':currentPage == 'three-d'}">3-D animations</button></a>
+    </div>
 </div>
