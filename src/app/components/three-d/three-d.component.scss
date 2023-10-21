@@ -1,3 +1,10 @@
+.three-d-page {
+    width: 101vw;
+    height: 100vh;
+    margin-left: -1vw;
+    background-color: black;
+
+}
 
 .circle {
     position: absolute;
@@ -5,7 +12,6 @@
     left: var(--offsetx);
     height: var(--radius);
     width: var(--radius);
-//    background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     &.right {
