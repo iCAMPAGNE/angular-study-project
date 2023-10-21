@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { ThreeDComponent } from './components/three-d/three-d.component';
+import { DynamicStylingComponent } from './components/dynamic-styling/dynamic-styling.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavigationComponent,
-    ThreeDComponent
+    ThreeDComponent,
+    DynamicStylingComponent
   ],
   imports: [
     BrowserModule,
