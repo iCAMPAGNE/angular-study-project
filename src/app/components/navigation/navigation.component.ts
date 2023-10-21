@@ -11,9 +11,7 @@ export class NavigationComponent implements OnInit{
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    console.log(this.router.url);
     this.currentPage = this.router.url.split('/')[1];
-    console.log(this.currentPage);
   }
 
 }

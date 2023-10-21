@@ -9,11 +9,11 @@ export class SecondService extends AbstractService {
 
   constructor(protected firstService: FirstService) {
     super();
-    this.setUserName('Second Service');
+//    this.setUserName('Second Service');
   }
 
   abstractFunction(): void {
     console.log('abstractFunction in SecondService');
-    this.firstService.finalFunction();
+//    this.firstService.finalFunction();
   }
 }
